@@ -2,7 +2,7 @@ package cuentas;
 
 /**
  *
- * @author EulenSeg
+ * @author MARTALOPEZGARCIA
  */
 public class CCuenta {
 
@@ -120,7 +120,7 @@ public class CCuenta {
     public void ingresar(double cantidad) throws Exception
     {
         if (cantidad<0)
-            throw new Exception("No se puede ingresar una cantidad negativa");
+            throw new Exception("No se puede ingresar una cantidad negativa, INGRESAR CANTIDAD CORRECTA");
         setSaldo(getSaldo() + cantidad);
     }
 
